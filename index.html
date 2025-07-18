@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name - Portfolio</title>
+  <!-- Fonts for techy style -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+
+  <!-- Hero Section with Glowing Photo -->
+  <div class="header-center">
+    <h1>SHAGNIK SARKAR</h1>
+    <p>CS undergrad • VIT-AP</p>
+    <div class="futuristic-photo">
+      <img src="meow.jpg" alt="Your face" />
+    </div>
+  </div>
+
+  <!-- Social Cards -->
+  <div class="card-container">
+    <div class="card">
+      <span>&#128187;</span>
+      <div>GitHub</div>
+      <a href="https://github.com/SHAGNIK007" target="_blank">Visit Profile</a>
+    </div>
+    <div class="card">
+      <span>&#128100;</span>
+      <div>LinkedIn</div>
+      <a href="https://linkedin.com/in/shagniksarkar007" target="_blank">Visit Profile</a>
+    </div>
+  </div>
+
+  <!-- Large Terminal Card -->
+  <div class="terminal-card-container">
+    <div id="terminal-card">
+      <div id="terminal-header">
+        <span class="terminal-btn red"></span>
+        <span class="terminal-btn yellow"></span>
+        <span class="terminal-btn green"></span>
+        <span class="terminal-title">~/portfolio — shagnik</span>
+      </div>
+      <div id="terminal-output"></div>
+      <div class="terminal-input-line">
+        <span class="prompt accent">$</span>
+        <input id="terminal-input" type="text" autocomplete="off" spellcheck="false" autofocus />
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="cursor.js"></script>
+  <script src="terminal.js"></script>
+</body>
+</html>
