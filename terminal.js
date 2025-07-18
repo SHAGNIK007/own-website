@@ -8,7 +8,7 @@ terminalInput.addEventListener('keydown', function (e) {
     // Show typed command
     terminalOutput.innerHTML += `<div><span class="prompt">$</span> ${cmd}</div>`;
     if (cmd.toLowerCase() === 'whoami') {
-      terminalOutput.innerHTML += `<div style="color:#54ff87;">shagnik sarkar</div>`;
+      terminalOutput.innerHTML += `<div style="color:#54ff87;">shagnik sarkar - a CS undergard @VIT-AP</div>`;
     } else if (cmd.toLowerCase() === 'clear') {
       terminalOutput.innerHTML = '';
     } else {
