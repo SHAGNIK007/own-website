@@ -91,5 +91,18 @@
   <script src="cursor.js"></script>
   <script src="terminal.js"></script>
 
+  <script>
+window.addEventListener('DOMContentLoaded', function() {
+  // Give entrance animation a moment to start, then scroll to terminal
+  setTimeout(function() {
+    const terminalCard = document.getElementById('terminal-card');
+    if (terminalCard) {
+      terminalCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, 40); // adjust delay to match your animation timing (ms)
+});
+</script>
+
+
 </body>
 </html>
