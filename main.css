@@ -270,3 +270,15 @@ body, html {
   .card-container { flex-direction: column; gap: 16px; }
   #terminal-card { min-height: 240px; }
 }
+.card .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.card .icon svg {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
