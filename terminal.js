@@ -22,9 +22,9 @@ terminalInput.addEventListener('keydown', function (e) {
     if (cmd === 'whoami') {
       terminalOutput.innerHTML += `<div style="color:#54ff87;">Shagnik Sarkar - a CS undergrad @VIT-AP</div>`;
     } else if (cmd === 'projects') {
-      terminalOutput.innerHTML += `<div>github.com/SHAGNIK007</div>`;
+      terminalOutput.innerHTML += `<div style="color:#54ff87;">github.com/SHAGNIK007</div>`;
     } else if (cmd === 'help') {
-      terminalOutput.innerHTML += `<div>look below the terminal to get to know about the commands</div>`;
+      terminalOutput.innerHTML += `<div style="color:#54ff87;">refer below the terminal</div>`;
     } else if (cmd === 'clear') {
       terminalOutput.innerHTML = '';
     } else {
