@@ -147,6 +147,81 @@ body, html {
   text-align: center;
   transition: transform 0.25s, box-shadow 0.25s;
 }
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(42px) scale(0.93);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Card Base Styles - Compact and Responsive */
+.card {
+  background: #23263a;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px #00ffe722, 0 0 12px #00ffe733;
+  flex: 1;
+  padding: 24px;
+  color: #00ffe7;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(42px) scale(0.93);
+}
+
+/* Animate each card in with a slight delay */
+.card:nth-child(1) {
+  animation: cardEntrance 0.95s cubic-bezier(.22,.69,.46,1.01) forwards;
+  animation-delay: 0.45s;
+}
+.card:nth-child(2) {
+  animation: cardEntrance 0.95s cubic-bezier(.22,.69,.46,1.01) forwards;
+  animation-delay: 0.75s;
+}
+
+/* Card Heading/Icon Styling */
+.card .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.card .icon svg {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+.card span {
+  font-size: 2rem;
+  display: block;
+}
+
+/* Hover Effects */
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 26px #00ffe7cc, 0 0 14px #00ffe7cc;
+}
+.card a {
+  color: #00ffe7;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
+.card a:hover {
+  color: #54ff87;
+  text-decoration: underline;
+}
+
 .card span {
   font-size: 2rem;
   display: block;
