@@ -11,6 +11,13 @@
   margin-top: 20px;
 }
 
+.hover {
+    :hover{
+        background-color: #00d1b2 ;
+    }
+
+}
+
 @keyframes typing {
   from { width: 0 }
   to { width: 37% }
