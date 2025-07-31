@@ -3,7 +3,7 @@
   font-size: 15px;
   color: #00d1b2;
   overflow: hidden;
-  border-right: 2px solid #00d1b2; /* blinking cursor */
+  border-right: 2px solid #00d1b2;
   white-space: nowrap;
   width: 0;
   animation: typing 1.5s steps(1000000000000000000000000000000000, end) forwards, blink 0.8s step-end infinite;
