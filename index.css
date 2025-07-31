@@ -1,5 +1,5 @@
 .mainbackground{
-    background:url(https://media1.tenor.com/m/53I_s_sx9ncAAAAC/black-space-stars.gif)
+    background-color: #0e0e0e;
 }
 .name{
     color: #a3e3e1;
@@ -8,7 +8,6 @@
     justify-content: center;
     padding-top: 1.5rem;
     animation-name: fadeIn; 
-    animation-duration: 2s;
 }
 .redirect{
     display: flex;
@@ -18,8 +17,6 @@
     margin-top: 4rem;
     font-size: 1.8rem;
     cursor: pointer;
-    animation-name: slideIn; 
-    animation-duration: 2s;
     :hover{
         color: #113982;
     }
@@ -28,8 +25,6 @@
 
 .link{
     color: #d0f5f4;
-        animation-name: fadeIn; 
-    animation-duration: 3s;
 }
 .heading{
     color: #8ff7ab;
@@ -37,8 +32,6 @@
     padding-left: 300px;
     padding-top: 1.5rem;
     font-size: 50px;
-        animation-name: fadeIn; 
-    animation-duration: 3.5s;
 
 }
 .para{
@@ -48,26 +41,6 @@
     font-variant: small-caps;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-right: 300px;
-        animation-name: fadeIn; 
-    animation-duration: 4s;
 
     
 }
-@keyframes fadeIn {
-    from{
-        opacity: 0;
-        
-    }
-    to{
-        opacity: 1;
-    }
-}
-    @keyframes slideIn {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
-
